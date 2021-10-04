@@ -1,0 +1,927 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*====================================================================================================
+		| ----------------------------- | Shortcodes |----------------------------- |
+====================================================================================================*/
+
+/* font-family: 'JF Flat Light', Arial, Helvetica, sans-serif */
+/* font-family: 'JF Flat Regular', Arial, Helvetica, sans-serif */
+/* font-family: 'JF Flat Medium', Arial, Helvetica, sans-serif */
+
+/* Vertical align anything with just 3 lines of CSS */
+
+/* http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/ */
+
+/*
+.element {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+*/
+
+/* Use :before */
+
+/* .Icon:before { content: "\f02d"; 
+    position:relative;
+	font-family: FontAwesome;
+	font-size:2em;
+	color:#FFFFFF;
+    left:5%;
+	top:25%;
+	
+    }*/
+/* .Icon:before { content: url(../images/Viewer/icons/Ico-Title.png); 
+    position:relative;
+	font-family: FontAwesome;
+	font-size:2em;
+	color:#FFFFFF;
+    left:5%;
+	top:25%;
+	
+    }*/
+/* A list of Font Awesome icons and their CSS content values | and make the icon bg | http://astronautweb.co/snippet/font-awesome/#comment-194592 */
+
+/* how to flip glyphicon icon | http://stackoverflow.com/questions/18609819/how-to-flip-glyphicon-icon |  */
+
+/* https://fortawesome.github.io/Font-Awesome/examples/ | Rotated & Flipped | fa-flip-horizontal & fa-flip-vertical */
+
+/*#HomeNews .ContentWraqpper .NewsBox .Data a.More .icon {position:relative;
+		
+		-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);	
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";;}	*/
+		
+/* Modern Clean CSS “Sticky Footer” | http://mystrd.at/modern-clean-css-sticky-footer/*/		
+
+/* make the div as table */
+
+/* http://www.mattboldt.com/kicking-ass-with-display-table/ */
+
+
+/*====================================================================================================
+		| ----------------------------- | Basic |----------------------------- |
+====================================================================================================*/
+
+body {font:16px 'JF Flat Regular', Arial, Helvetica, sans-serif;color:#2b2b2a;background:#fbfaf8;overflow:hidden !important}
+
+body.brown_theme a {color:#855039}
+
+body.gold_theme a {color:#8b753b}
+
+/*====================================================================================================
+		| ----------------------------- | R01 |----------------------------- |
+====================================================================================================*/
+
+
+
+#R01 img.Logo {display:inline-block;margin-top:15px;max-width:100%;height:auto;position:relative}
+
+#R01 .TitleArea {display:inline-block;float:right;margin-top:10px;margin-bottom:10px;text-align:right}
+
+#R01 .TitleArea .Title01 {font:28px 'JF Flat Medium', Arial, Helvetica, sans-serif;color:#005865;}
+
+body.green_theme #R01 .TitleArea .Title01 {color:#00270f}
+
+body.brown_theme #R01 .TitleArea .Title01 {color:#402315}
+
+body.gold_theme #R01 .TitleArea .Title01 {color:#333335}
+
+#R01 .TitleArea .Title02 {font:20px 'JF Flat Regular', Arial, Helvetica, sans-serif;color:#005f6b}
+
+body.green_theme #R01 .TitleArea .Title02 {color:#00270f}
+
+body.brown_theme #R01 .TitleArea .Title02 {color:#7e472c}
+
+body.gold_theme #R01 .TitleArea .Title02 {color:#7f6936}
+
+#R01 .TitleArea .Title02 .unit, #R01 .TitleArea .Title02 .lesson {display:inline-block}
+
+#R01 .TitleArea .Title02 .sep {display:inline-block;margin:0px 5px}
+
+/*====================================================================================================
+		| ----------------------------- | R02 |----------------------------- |
+====================================================================================================*/
+
+#R02 {background:#007a8c}
+
+body.green_theme #R02 {background:#3a6340}
+
+body.brown_theme #R02 {background:#7e472c}
+
+body.gold_theme #R02 {background:#bda25d}
+
+#R02 .Title {width:100%; min-height:50px;float:left;position:relative}
+
+#R02 .Title .TitleArea {min-height:50px;display:inline-block/*;background:#00515d*/;float:left;position:relative;padding:0 5px;padding-left:0px}
+
+#R02 .Title .TitleArea .screen-name:before { content: url(../images/Viewer/icons/Ico-Title.png); 
+    display:inline-block;
+	position:relative;
+	font-family: FontAwesome;
+	left:5px;
+	top:5px;margin-right:5px;
+	
+    }
+	
+#R02 .Title .TitleArea .screen-name {display:inline-block;float:left;font:20px 'JF Flat Medium', Arial, Helvetica, sans-serif;color:#FFF;/*text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.25);*/position:relative;top:10px}
+
+#R02 .Title .tools01 {display:inline-block;float:right}
+
+/*====================================================================================================
+		| ----------------------------- | R03 |----------------------------- |
+====================================================================================================*/
+
+#R03 {background:#002630}
+
+body.green_theme #R03 {background:#113820}
+
+body.brown_theme #R03 {background:#40281d}
+
+body.gold_theme #R03 {background:#333335}
+
+#R03 .r-side {padding-right:1px;padding-left:15px;padding-top:0px}
+
+#R03 .m-area {padding-left:0px}
+
+#R03 #SideArea #txt_mod {background:#f7f7f7;padding:15px}
+
+#R03 #SideArea #txt_mod .title {font:18px 'JF Flat Medium', Arial, Helvetica, sans-serif;color:#00515d;padding-bottom:5px;margin-bottom:10px;border-bottom:1px solid #00515d}
+
+body.green_theme #R03 #SideArea #txt_mod .title {color:#113820}
+
+body.brown_theme #R03 #SideArea #txt_mod .title {color:#402315}
+
+body.gold_theme #R03 #SideArea #txt_mod .title {color:#4e4d4d}
+
+#R03 #SideArea #txt_mod .body {font:14px 'JF Flat Medium', Arial, Helvetica, sans-serif;color:#595959;height:190px;overflow:auto;text-align:justify;padding:10px;}
+
+#R03 #SideArea #txt_mod.mod_only .body {height:408px;}
+
+#R03 #SideArea #sls_mod {background:#00515d;padding:10px;min-height:190px}
+
+body.green_theme #R03 #SideArea #sls_mod {background:#2b6535}
+
+body.brown_theme #R03 #SideArea #sls_mod {background:#64341d}
+
+body.gold_theme #R03 #SideArea #sls_mod {background:#a48a47}
+
+#R03 #SideArea #sls_mod .title {font:20px 'JF Flat Medium', Arial, Helvetica, sans-serif;color:#FFF;margin-bottom:15px}
+
+/*====================================================================================================
+		| ----------------------------- | MainArea |----------------------------- |
+====================================================================================================*/
+
+#MainArea {width:100%;height:auto;background:#FFF;float:left}
+
+#MainArea .MainBg {}
+
+#MainArea img.sample{width:100%;height:auto}
+
+/*====================================================================================================
+		| ----------------------------- | R04 |----------------------------- |
+====================================================================================================*/
+
+#R04 {background:#0d6172;min-height:50px} 
+
+body.green_theme #R04 {background:#2e5c35;}
+
+body.brown_theme #R04 {background:#764025;}
+
+body.gold_theme #R04 {background:#99803e;}
+
+#R04 .tools02 {display:inline-block;float:left}
+
+#R04 .tools02 .title {display:inline-block;float:left;font:18px 'JF Flat Medium', Arial, Helvetica, sans-serif;color:#FFF;/*text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.25);*/position:relative;top:10px;margin-right:15px}
+
+#R04 .navigation {display:inline-block;float:right;min-width:254px;min-height:30px;background:#104450;text-align:center;padding-top:10px}
+
+body.green_theme #R04 .navigation {background:#154728}
+
+body.brown_theme #R04 .navigation {background:#5b2d17}
+
+body.gold_theme #R04 .navigation {background:#746027}
+
+#R04 .navigation a {display:inline-block;width:25px;min-height:30px;margin:0px 2px}
+
+#R04 a.Off {opacity:0.25;cursor:default}
+
+#R04 .navigation span {display:inline-block;min-height:40px;margin:0px 2px;color:#FFF;font:16px 'JF Flat Medium', Arial, Helvetica, sans-serif;line-height:30px;vertical-align:top}
+
+#R04 .navigation a.Arrow-r-2 {background:url(../images/Viewer/icons/Arrow-l-2.png) center center no-repeat }
+
+body.gold_theme #R04 .navigation a.Arrow-r-2 {background:url(../images/Viewer/icons/Arrow-l-2_gold.png) center center no-repeat }
+
+#R04 .navigation a:hover.Arrow-r-2 {background:url(../images/Viewer/icons/Arrow-l-2-act.png) center center no-repeat }
+
+body.green_theme #R04 .navigation a:hover.Arrow-r-2 {background:url(../images/Viewer/icons/Arrow-r-2-act_green.png) center center no-repeat }
+
+body.brown_theme #R04 .navigation a:hover.Arrow-r-2 {background:url(../images/Viewer/icons/Arrow-r-2-act_brown.png) center center no-repeat }
+
+body.gold_theme #R04 .navigation a:hover.Arrow-r-2 {background:url(../images/Viewer/icons/Arrow-l-2-act_gold.png) center center no-repeat }
+
+#R04 .navigation a.Arrow-r-1 {background:url(../images/Viewer/icons/Arrow-l-1.png) center center no-repeat }
+
+body.gold_theme #R04 .navigation a.Arrow-r-1 {background:url(../images/Viewer/icons/Arrow-l-1_gold.png) center center no-repeat }
+
+#R04 .navigation a:hover.Arrow-r-1 {background:url(../images/Viewer/icons/Arrow-l-1-act.png) center center no-repeat }
+
+body.green_theme #R04 .navigation a:hover.Arrow-r-1 {background:url(../images/Viewer/icons/Arrow-r-1-act_green.png) center center no-repeat }
+
+body.brown_theme #R04 .navigation a:hover.Arrow-r-1 {background:url(../images/Viewer/icons/Arrow-r-1-act_brown.png) center center no-repeat }
+
+body.gold_theme #R04 .navigation a:hover.Arrow-r-1 {background:url(../images/Viewer/icons/Arrow-l-1-act_gold.png) center center no-repeat }
+
+#R04 .navigation a.Arrow-l-1 {background:url(../images/Viewer/icons/Arrow-r-1.png) center center no-repeat }
+
+body.gold_theme #R04 .navigation a.Arrow-l-1 {background:url(../images/Viewer/icons/Arrow-r-1_gold.png) center center no-repeat }
+
+#R04 .navigation a:hover.Arrow-l-1 {background:url(../images/Viewer/icons/Arrow-r-1-act.png) center center no-repeat }
+
+body.gold_theme #R04 .navigation a:hover.Arrow-l-1 {background:url(../images/Viewer/icons/Arrow-r-1-act_gold.png) center center no-repeat }
+
+body.green_theme #R04 .navigation a:hover.Arrow-l-1 {background:url(../images/Viewer/icons/Arrow-l-1-act_green.png) center center no-repeat }
+
+body.brown_theme #R04 .navigation a:hover.Arrow-l-1 {background:url(../images/Viewer/icons/Arrow-l-1-act_brown.png) center center no-repeat }
+
+#R04 .navigation a.Arrow-l-2 {background:url(../images/Viewer/icons/Arrow-r-2.png) center center no-repeat }
+
+body.gold_theme #R04 .navigation a.Arrow-l-2 {background:url(../images/Viewer/icons/Arrow-r-2_gold.png) center center no-repeat }
+
+#R04 .navigation a:hover.Arrow-l-2 {background:url(../images/Viewer/icons/Arrow-r-2-act.png) center center no-repeat }
+
+body.gold_theme #R04 .navigation a:hover.Arrow-l-2 {background:url(../images/Viewer/icons/Arrow-r-2-act_gold.png) center center no-repeat }
+
+body.green_theme #R04 .navigation a:hover.Arrow-l-2 {background:url(../images/Viewer/icons/Arrow-l-2-act_green.png) center center no-repeat }
+
+body.brown_theme #R04 .navigation a:hover.Arrow-l-2 {background:url(../images/Viewer/icons/Arrow-l-2-act_brown.png) center center no-repeat }
+
+
+#R04 .navigation a.PageLink {display:inline-block;width:auto;height:25px;line-height:50px;cursor:pointer}
+
+#R04 .navigation .PagNumbBox {display:inline-block;margin-top:0px}
+
+#R04 .navigation .PagNumbBox .go_to {display:inline-block;width:60px;height:30px;font-size:13px;text-align:center;border-radius:2px 0px 0px 2px;border:none;outline:none
+;color:#444444;}
+
+#R04 .navigation .PagNumbBox .btn {background:#21858a;border:none;border-radius:0px 2px 2px 0px;height:30px;outline:none}
+
+body.green_theme #R04 .navigation .PagNumbBox .btn {background:#478a51}
+
+body.brown_theme #R04 .navigation .PagNumbBox .btn {background:#904f2e}
+
+body.gold_theme #R04 .navigation .PagNumbBox .btn {background:#a98f4c}
+
+_:-ms-fullscreen, :root #R04 .navigation .PagNumbBox .btn {margin-top:-3px;height:31px}
+
+#R04 .navigation .PagNumbBox .btn:hover {background:#2a9aa1;}
+
+body.green_theme #R04 .navigation .PagNumbBox .btn:hover {background:#41a06f;}
+
+body.brown_theme #R04 .navigation .PagNumbBox .btn:hover {background:#aa582f;}
+
+body.gold_theme #R04 .navigation .PagNumbBox .btn:hover {background:#4e4d4d;}
+
+/*====================================================================================================
+		| ----------------------------- | Icons Css |----------------------------- |
+====================================================================================================*/
+
+
+a.r-ico {display:inline-block;width:32px;height:32px;border-radius:50%;background:#c1f6f9;margin-right:8px;margin-top:10px;position:relative;}
+
+body.green_theme a.r-ico {background-color:#d7ffdd}
+
+body.brown_theme a.r-ico {background-color:#ffcb90}
+
+body.gold_theme a.r-ico {background-color:#FFF}
+
+a.r-ico.active {background-color:#104450}
+
+body.green_theme a.r-ico.active {background-color:#003316 !important}
+
+body.brown_theme a.r-ico.active {background-color:#402315 !important}
+
+body.gold_theme a.r-ico.active {background-color:#383838 !important}
+
+.r-ico img {display:block;margin:auto;position: relative;  top: 50%;  transform: translateY(-50%);}
+
+a.r-ico.home {background:url(../images/Viewer/icons/Home.png) center center no-repeat #c1f6f9}
+
+body.brown_theme a.r-ico.home {background:url(../images/Viewer/icons/Home_brown.png) center center no-repeat #ffcb90}
+
+body.gold_theme a.r-ico.home {background:url(../images/Viewer/icons/Home_gold.png) center center no-repeat #FFF}
+
+a.r-ico.active.home {background:url(../images/Viewer/icons/Home-act.png) center center no-repeat #104450}
+
+body.brown_theme a.r-ico.active.home {background:url(../images/Viewer/icons/Home-act_brown.png) center center no-repeat #402315}
+
+body.gold_theme a.r-ico.active.home {background:url(../images/Viewer/icons/Home-act_gold.png) center center no-repeat #383838}
+
+a.r-ico.menu {background:url(../images/Viewer/icons/menu.png) center center no-repeat #c1f6f9}
+
+body.brown_theme a.r-ico.menu {background:url(../images/Viewer/icons/menu_brown.png) center center no-repeat #ffcb90}
+
+body.gold_theme a.r-ico.menu {background:url(../images/Viewer/icons/menu_gold.png) center center no-repeat #FFF}
+
+a.r-ico.active.menu {background:url(../images/Viewer/icons/menu-act.png) center center no-repeat #104450}
+
+body.brown_theme a.r-ico.active.menu {background:url(../images/Viewer/icons/menu-act_brown.png) center center no-repeat #402315}
+
+body.gold_theme a.r-ico.active.menu {background:url(../images/Viewer/icons/menu-act_gold.png) center center no-repeat #383838}
+
+a.r-ico.fulls {background:url(../images/Viewer/icons/Full-screen.png) center center no-repeat #c1f6f9}
+
+body.brown_theme a.r-ico.fulls {background:url(../images/Viewer/icons/Full-screen_brown.png) center center no-repeat #ffcb90}
+
+body.gold_theme a.r-ico.fulls {background:url(../images/Viewer/icons/Full-screen_gold.png) center center no-repeat #FFF}
+
+a.r-ico.active.fulls {background:url(../images/Viewer/icons/Full-screen-act.png) center center no-repeat #104450}
+
+body.green_theme a.r-ico.active.fulls {background:url(../images/Viewer/icons/Full-screen-act_green.png) center center no-repeat #104450}
+
+body.brown_theme a.r-ico.active.fulls {background:url(../images/Viewer/icons/Full-screen-act_brown.png) center center no-repeat #104450}
+
+body.gold_theme a.r-ico.active.fulls {background:url(../images/Viewer/icons/Full-screen-act_gold.png) center center no-repeat #383838}
+
+a.r-ico.search {background:url(../images/Viewer/icons/Search.png) center center no-repeat #c1f6f9}
+
+body.brown_theme a.r-ico.search {background:url(../images/Viewer/icons/Search_brown.png) center center no-repeat #ffcb90}
+
+body.gold_theme a.r-ico.search {background:url(../images/Viewer/icons/Search_gold.png) center center no-repeat #FFF}
+
+a.r-ico.active.search {background:url(../images/Viewer/icons/Search-act.png) center center no-repeat #104450}
+
+body.brown_theme a.r-ico.active.search {background:url(../images/Viewer/icons/Search-act_brown.png) center center no-repeat #402315}
+
+body.gold_theme a.r-ico.active.search {background:url(../images/Viewer/icons/Search-act_gold.png) center center no-repeat #383838}
+
+a.r-ico.pdf {background:url(../images/Viewer/icons/PDF.png) center center no-repeat #c1f6f9}
+
+body.brown_theme a.r-ico.pdf {background:url(../images/Viewer/icons/PDF_brown.png) center center no-repeat #ffcb90}
+
+body.gold_theme a.r-ico.pdf {background:url(../images/Viewer/icons/PDF_gold.png) center center no-repeat #FFF}
+
+a.r-ico.active.pdf {background:url(../images/Viewer/icons/PDF-act.png) center center no-repeat #104450}
+
+body.brown_theme a.r-ico.active.pdf {background:url(../images/Viewer/icons/PDF-act_brown.png) center center no-repeat #402315}
+
+body.gold_theme a.r-ico.active.pdf {background:url(../images/Viewer/icons/PDF-act_gold.png) center center no-repeat #383838}
+
+a.r-ico.glossary {background:url(../images/Viewer/icons/Glossary.png) center center no-repeat #c1f6f9}
+
+body.brown_theme a.r-ico.glossary {background:url(../images/Viewer/icons/Glossary_brown.png) center center no-repeat #ffcb90}
+
+body.gold_theme a.r-ico.glossary {background:url(../images/Viewer/icons/Glossary_gold.png) center center no-repeat #FFF}
+
+a.r-ico.active.glossary {background:url(../images/Viewer/icons/Glossary-act.png) center center no-repeat #104450}
+
+body.brown_theme a.r-ico.active.glossary {background:url(../images/Viewer/icons/Glossary-act_brown.png) center center no-repeat #402315}
+
+body.gold_theme a.r-ico.active.glossary {background:url(../images/Viewer/icons/Glossary-act_gold.png) center center no-repeat #383838}
+
+a.r-ico.txt {background:url(../images/Viewer/icons/Txt.png) center center no-repeat #c1f6f9}
+
+body.brown_theme a.r-ico.txt {background:url(../images/Viewer/icons/Txt_brown.png) center center no-repeat #ffcb90}
+
+body.gold_theme a.r-ico.txt {background:url(../images/Viewer/icons/Txt_gold.png) center center no-repeat #FFF}
+
+a.r-ico.active.txt {background:url(../images/Viewer/icons/Txt-act.png) center center no-repeat #104450}
+
+body.brown_theme  a.r-ico.active.txt {background:url(../images/Viewer/icons/Txt-act_brown.png) center center no-repeat #402315}
+
+body.green_theme a.r-ico.active.txt {background:url(../images/Viewer/icons/Txt-act_green.png) center center no-repeat #003316}
+
+body.gold_theme a.r-ico.active.txt {background:url(../images/Viewer/icons/Txt-act_gold.png) center center no-repeat #383838}
+
+a.r-ico.print {background:url(../images/Viewer/icons/Print.png) center center no-repeat #c1f6f9}
+
+body.brown_theme a.r-ico.print {background:url(../images/Viewer/icons/Print_brown.png) center center no-repeat #ffcb90}
+
+body.gold_theme a.r-ico.print {background:url(../images/Viewer/icons/Print_gold.png) center center no-repeat #FFF}
+
+a.r-ico.active.print {background:url(../images/Viewer/icons/Print-act.png) center center no-repeat #104450}
+
+body.brown_theme a.r-ico.active.print {background:url(../images/Viewer/icons/Print-act_brown.png) center center no-repeat #402315}
+
+body.gold_theme a.r-ico.active.print {background:url(../images/Viewer/icons/Print-act_gold.png) center center no-repeat #383838}
+
+a.r-ico.help {background:url(../images/Viewer/icons/Help_En.png) center center no-repeat #c1f6f9}
+
+body.brown_theme a.r-ico.help {background:url(../images/Viewer/icons/Help_brown.png) center center no-repeat #ffcb90}
+
+body.gold_theme a.r-ico.help {background:url(../images/Viewer/icons/Help_En_gold.png) center center no-repeat #FFF}
+
+a.r-ico.active.help {background:url(../images/Viewer/icons/Help-act_En.png) center center no-repeat #104450}
+
+body.brown_theme a.r-ico.active.help {background:url(../images/Viewer/icons/Help-act_brown.png) center center no-repeat #402315}
+
+body.gold_theme a.r-ico.active.help {background:url(../images/Viewer/icons/Help-act_En_gold.png) center center no-repeat #383838}
+
+a.r-ico.replay {background:url(../images/Viewer/icons/Replay.png) center center no-repeat #c1f6f9}
+
+body.brown_theme a.r-ico.replay {background:url(../images/Viewer/icons/Replay_brown.png) center center no-repeat #ffcb90}
+
+body.gold_theme a.r-ico.replay {background:url(../images/Viewer/icons/Replay_gold.png) center center no-repeat #FFF}
+
+a.r-ico.active.replay {background:url(../images/Viewer/icons/Replay-act.png) center center no-repeat #104450}
+
+body.brown_theme a.r-ico.active.replay {background:url(../images/Viewer/icons/Replay-act_brown.png) center center no-repeat #402315}
+
+body.gold_theme a.r-ico.active.replay {background:url(../images/Viewer/icons/Replay-act_gold.png) center center no-repeat #383838}
+
+a.r-ico.SLS {background:url(../images/Viewer/icons/SLS.png) center center no-repeat #c1f6f9}
+
+body.brown_theme a.r-ico.SLS {background:url(../images/Viewer/icons/SLS_brown.png) center center no-repeat #ffcb90}
+
+body.gold_theme a.r-ico.SLS {background:url(../images/Viewer/icons/SLS_gold.png) center center no-repeat #FFF}
+
+a.r-ico.active.SLS {background:url(../images/Viewer/icons/SLS-act.png) center center no-repeat #104450}
+
+body.brown_theme a.r-ico.active.SLS {background:url(../images/Viewer/icons/SLS-act_brown.png) center center no-repeat #402315}
+
+body.green_theme a.r-ico.active.SLS {background:url(../images/Viewer/icons/SLS-act_green.png) center center no-repeat #003316}
+
+body.gold_theme a.r-ico.active.SLS {background:url(../images/Viewer/icons/SLS-act_gold.png) center center no-repeat #383838}
+
+a:hover.r-ico  {background-color:#edfdff}
+
+body.brown_theme a:hover.r-ico  {background-color:#fffae1}
+
+
+/*====================================================================================================
+		| ----------------------------- | Sticky Footer |----------------------------- |
+====================================================================================================*/
+
+/* Modern Clean CSS “Sticky Footer” | http://mystrd.at/modern-clean-css-sticky-footer/*/
+
+html {
+    position: relative !important;
+    min-height: 100% !important;
+	background:#fbfaf8 !important
+}
+body {
+    margin: 0 0 60px !important; /* bottom = footer height */
+    min-height: 100% !important;
+}
+footer.mba {
+    position: absolute !important;
+    left: 0;
+    bottom: 0;
+   	height: 60px;
+    width: 100%;
+	text-align:center;padding-top:20px;padding-bottom:20px;font-size:14px;background:#e2e3e5
+}
+
+
+/*====================================================================================================
+		| ----------------------------- | Glosary Popup |----------------------------- |
+====================================================================================================*/
+
+
+.fancybox-skin {/*box-shadow:none !important*/;background:#ebe7dc url(../images/Viewer/Footer_Glossary.png) bottom repeat-x !important}
+
+body.green_theme .fancybox-skin {/*box-shadow:none !important*/;background:#ebe7dc url(../images/Viewer/Footer_Glossary_green.png) bottom repeat-x !important}
+
+body.brown_theme .fancybox-skin {/*box-shadow:none !important*/;background:#ebe7dc url(../images/Viewer/Footer_Glossary_brown.png) bottom repeat-x !important}
+
+body.gold_theme .fancybox-skin {/*box-shadow:none !important*/;background:#ebe7dc url(../images/Viewer/Footer_Glossary_gold.png) bottom repeat-x !important}
+
+
+#Glossary {width:100%;padding-bottom:15px;position:absolute;height:100%}
+
+
+#Glossary .TitleWrapper {width:100%;background:#007a8c;position:relative}
+
+body.green_theme #Glossary .TitleWrapper {background:#315435;}
+
+body.brown_theme #Glossary .TitleWrapper {background:#7e472c;}
+
+body.gold_theme #Glossary .TitleWrapper {background:#bda25d;}
+
+#Glossary .TitleWrapper .Icon {width:40px;height:40px;background:#002630 url(../images/Viewer/Glossary.png) center center no-repeat}
+
+body.green_theme #Glossary .TitleWrapper .Icon {background:#113820 url(../images/Viewer/Glossary.png) center center no-repeat}
+
+body.brown_theme #Glossary .TitleWrapper .Icon {background:#402315 url(../images/Viewer/Glossary.png) center center no-repeat}
+
+body.gold_theme #Glossary .TitleWrapper .Icon {background:#78642a url(../images/Viewer/Glossary.png) center center no-repeat}
+
+#Glossary .TitleWrapper .Title {height:40px;line-height:40px !important;text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);color:#FFF;font:19px 'JF Flat Medium', Arial, Helvetica, sans-serif;background:#007a8c;vertical-align:middle;padding-left:10px}
+
+body.green_theme #Glossary .TitleWrapper .Title {background:#315435;}
+
+body.brown_theme #Glossary .TitleWrapper .Title {background:#7e472c;}
+
+body.gold_theme #Glossary .TitleWrapper .Title {background:#b39855;}
+
+#Glossary .TitleWrapper .Close {width:44px;height:36px;background:#007a8c;padding:2px;}
+
+body.green_theme #Glossary .TitleWrapper .Close {background:#315435;}
+
+body.brown_theme #Glossary .TitleWrapper .Close {background:#7e472c;}
+
+body.gold_theme #Glossary .TitleWrapper .Close {background:#bda25d;}
+
+#Glossary .TitleWrapper .Close a {display:block;width:40px;height:36px;background:#c1f6f9 url(../images/Viewer/icons/close.png) center center no-repeat}
+
+body.green_theme #Glossary .TitleWrapper .Close a {background:#eeffe7 url(../images/Viewer/icons/close_green.png) center center no-repeat}
+
+body.brown_theme #Glossary .TitleWrapper .Close a {background:#fd9c6a url(../images/Viewer/icons/close_brown.png) center center no-repeat}
+
+body.gold_theme #Glossary .TitleWrapper .Close a {background:#4e4d4d url(../images/Viewer/icons/close_gold.png) center center no-repeat;}
+
+#Glossary .SearchArea {margin-top:20px;}
+
+#Glossary .SearchArea .Title {white-space:nowrap;line-height:30px !important;font:16px 'JF Flat Medium', Arial, Helvetica, sans-serif;color:#4f4f4f;
+vertical-align:middle;padding-right:10px;width:100px}
+
+#Glossary .SearchArea table td {vertical-align:middle;}
+
+#Glossary .SearchArea input {height:34px;font-size:14px;box-shadow: 0px -1px 0px 0px rgba(0, 0, 0, 0.4);margin-top:1px}
+
+#Glossary .SearchArea button {height:35px;background:#006f7c;border-color:#006f7c;}
+
+body.green_theme #Glossary .SearchArea button {background:#315435;border-color:#315435;}
+
+body.brown_theme #Glossary .SearchArea button {background:#7e472c;border-color:#7e472c;}
+
+body.gold_theme #Glossary .SearchArea button {background:#ad924f;border-color:#bda25d;}
+
+#Glossary .SearchArea button .fa-search {line-height:34px !important;position:absolute;top:0;left:7px}
+
+#Glossary .SearchArea button .fa-search:before{}
+
+#Glossary .Terms {width:96%;height:75%;overflow:auto;position:absolute;padding:5px;padding-right:8px;top:110px;left:2%;}
+
+#Glossary .Terms ul {margin:0;padding:0;padding-top:5px}
+
+#Glossary .Terms ul li {margin:0;list-style:none;display:block;width:100%;min-height:125px;padding:15px; box-shadow: 0px -1px 0px 0px rgba(0, 0, 0, 0.4);background:#FFF;border:1px solid #e7e7e7;border-radius:3px;margin-bottom:20px}
+
+#Glossary .Terms ul li .TermTitle{background:url(../images/Viewer/Arrow_En.png) left 8px no-repeat; padding-left:10px;color:#006f7c;font:15px 'JF Flat Medium', Arial, Helvetica, sans-serif;padding-bottom:5px;border-bottom:1px #cfcfcf solid;margin-bottom:5px }
+
+body.brown_theme #Glossary .Terms ul li .TermTitle {background:url(../images/Viewer/Arrow_brown.png) right 8px no-repeat;color:#7e472c}
+
+body.gold_theme #Glossary .Terms ul li .TermTitle {background:url(../images/Viewer/Arrow_gold.png) left 8px no-repeat;color:#8b753b}
+
+#Glossary .Terms ul li .TermDescription {color:#3e3e3e;font:13px 'JF Flat Medium', Arial, Helvetica, sans-serif;}
+
+.Shape_5_copy_3 {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(231, 231, 231);
+  border-radius: 3px;
+  background-color: rgb(245, 245, 245);
+  box-shadow: 0px -1px 0px 0px rgba(0, 0, 0, 0.4);
+  position: absolute;
+
+  width: 975px;
+  height: 123px;
+
+}
+
+/*====================================================================================================
+		| ----------------------------- | Help Popup |----------------------------- |
+====================================================================================================*/
+
+#Help {width:100%;height:100%;padding-bottom:15px;position:absolute;}
+
+#Help .TitleWrapper {width:100%;background:#007a8c;position:relative}
+
+body.green_theme #Help .TitleWrapper {background:#315435}
+
+body.brown_theme #Help .TitleWrapper {background:#7e472c}
+
+body.gold_theme #Help .TitleWrapper {background:#bda25d}
+
+#Help .TitleWrapper .Icon {width:40px;height:40px;background:#002630 url(../images/Viewer/Help_En.png) center center no-repeat}
+
+body.green_theme #Help .TitleWrapper .Icon {background:#113820 url(../images/Viewer/Help.png) center center no-repeat}
+
+body.brown_theme #Help .TitleWrapper .Icon {background:#402315 url(../images/Viewer/Help.png) center center no-repeat}
+
+body.gold_theme #Help .TitleWrapper .Icon {background:#78642a url(../images/Viewer/Help_En.png) center center no-repeat}
+
+#Help .TitleWrapper .Title {height:40px;line-height:40px !important;text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);color:#FFF;font:19px 'JF Flat Medium', Arial, Helvetica, sans-serif;background:#007a8c;vertical-align:middle;padding-left:10px}
+
+body.green_theme #Help .TitleWrapper .Title {background:#315435}
+
+body.brown_theme #Help .TitleWrapper .Title {background:#7e472c}
+
+body.gold_theme #Help .TitleWrapper .Title {background:#b39855}
+
+#Help .TitleWrapper .Close {width:40px;height:36px;background:#007a8c;padding:2px;}
+
+body.green_theme #Help .TitleWrapper .Close {background:#315435;}
+
+body.brown_theme #Help .TitleWrapper .Close {background:#7e472c;}
+
+body.gold_theme #Help .TitleWrapper .Close {background:#b39855;}
+
+#Help .TitleWrapper .Close a {display:block;width:36px;height:36px;background:#c1f6f9 url(../images/Viewer/icons/close.png) center center no-repeat}
+
+body.green_theme #Help .TitleWrapper .Close a {background:#eeffe7 url(../images/Viewer/icons/close_green.png) center center no-repeat}
+
+body.brown_theme #Help .TitleWrapper .Close a {background:#fd9c6a url(../images/Viewer/icons/close_brown.png) center center no-repeat}
+
+body.gold_theme #Help .TitleWrapper .Close a {background:#4e4d4d url(../images/Viewer/icons/close_gold.png) center center no-repeat;}
+
+#Help .Msg {width:100%;margin:auto;text-align:center;font:19px 'JF Flat Medium', Arial, Helvetica, sans-serif;padding-top:15px;position:absolute;margin-bottom:30px}
+
+
+/* ====================================================================================================================
+| ----------------------------- | Bootstrap 3 Media Queries - Non-Mobile First Method |----------------------------- |
+https://scotch.io/tutorials/default-sizes-for-twitter-bootstraps-media-queries 
+==================================================================================================================== */
+
+ /* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+
+/*====================================================================================================
+		| ----------------------------- | R01 |----------------------------- |
+====================================================================================================*/
+
+#R01 .TitleArea .Title01 {font:24px 'JF Flat Medium', Arial, Helvetica, sans-serif;color:#005865}
+
+#R01 .TitleArea .Title02 {font:18px 'JF Flat Regular', Arial, Helvetica, sans-serif;color:#005f6b}	
+
+/*====================================================================================================
+		| ----------------------------- | R03 |----------------------------- |
+====================================================================================================*/	
+
+#R03 .r-side {padding-right:15px;padding-left:15px}
+
+#R03 .m-area {padding-right:15px;padding-left:15px}
+
+#R03 #SideArea #txt_mod {width:73%;float:right}
+
+#R03 #SideArea #txt_mod.mod_only {width:100%;float:right}
+
+#R03 #SideArea #txt_mod .body, #R03 #SideArea #txt_mod.mod_only .body {height:128px}
+
+#R03 #SideArea #sls_mod {width:27%;float:right}
+
+#R03 #SideArea #sls_mod.mod_only {width:100%;}
+
+#R03 #SideArea #sls_mod.mod_only .title {text-align:center}
+
+#R03 #SideArea #sls_mod.mod_only img {max-width:250px;height:auto;display:block;margin:auto}
+
+}
+@media only screen and (min-width : 992px) {
+	
+#MainArea {min-height:450px}
+
+#MainArea .MainBg {min-height:450px}	
+	}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+
+/*====================================================================================================
+		| ----------------------------- | R01 |----------------------------- |
+====================================================================================================*/			
+
+#R01 img.Logo {display:block;max-width:100%;height:auto;position:relative;margin:auto;margin-top:10px}
+
+#R01 {text-align:center}
+
+#R01 .TitleArea {text-align:center;width:100%}
+
+/*====================================================================================================
+		| ----------------------------- | R03 |----------------------------- |
+====================================================================================================*/	
+
+#R03 #SideArea #txt_mod {width:65%;float:right}
+
+#R03 #SideArea #txt_mod .body {height:128px}
+
+#R03 #SideArea #sls_mod {width:35%;float:right;min-height:205px}
+
+/*====================================================================================================
+		| ----------------------------- | R04 |----------------------------- |
+====================================================================================================*/	
+
+#R04 #ControlWrapper {text-align:center;display:flex;flex-flow: column;}
+
+#R04 #ControlWrapper .tools02 {float:none;clear:both;margin-top:10px;order:2;}
+
+#R04 #ControlWrapper .navigation {float:none;clear:both;order:1;width:310px;margin:auto;margin-top:10px;text-align:center;max-width:100%}
+
+#R04 .tools02 .title {display:none}	
+
+}
+	
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+
+
+
+/*====================================================================================================
+		| ----------------------------- | R03 |----------------------------- |
+====================================================================================================*/
+		
+#R03 #SideArea #txt_mod {width:65%;float:right}
+
+#R03 #SideArea #txt_mod .body {height:128px}
+
+#R03 #SideArea #sls_mod {width:35%;float:right;min-height:205px}
+
+
+
+}
+	
+	
+@media only screen and (max-width : 600px) {
+
+/*====================================================================================================
+		| ----------------------------- | R01 |----------------------------- |
+====================================================================================================*/
+
+#R01 .TitleArea .Title01 span, #R01 .TitleArea .Title02 span{display:block;float:none;clear:both;width:100%;margin:2px auto}
+
+#R01 .TitleArea .Title02 .sep {display:none}
+
+/*====================================================================================================
+		| ----------------------------- | R02 |----------------------------- |
+====================================================================================================*/
+
+#R02 {text-align:center}
+
+#R02 .Title .TitleArea {float:none;padding:0px;width:100%}
+
+#R02 .Title .TitleArea .screen-name {display:inline-block;float:none;margin:2px auto}
+
+#R02 .Title .tools01 {display:inline-block;float:none;text-align:center;margin:2px auto}
+		
+}
+	
+
+@media only screen and (max-width : 524px) {
+	
+/*====================================================================================================
+		| ----------------------------- | R04 |----------------------------- |
+====================================================================================================*/		
+#R04 .tools02 {text-align:center}
+	
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	
+/*====================================================================================================
+		| ----------------------------- | Glosary Popup |----------------------------- |
+====================================================================================================*/
+
+#Glossary .SearchArea .Title {display:none}
+
+#Glossary .TitleWrapper .Title {font-size:15px}
+
+#Glossary .Terms {top:110px;}
+
+/*====================================================================================================
+		| ----------------------------- | Pushy Menu |----------------------------- |
+====================================================================================================*/
+
+.pushy .Header .Title {width:200px;font-size:24px}
+
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
+
+/*====================================================================================================
+		| ----------------------------- | R03 |----------------------------- |
+====================================================================================================*/
+
+#R03 {clear:both}
+
+#R03 #SideArea {display:flex;flex-flow: column;clear:both}
+		
+#R03 #SideArea #txt_mod {float:none;order:2;width:100%}
+		
+#R03 #SideArea #txt_mod .body {height:128px}
+		
+#R03 #SideArea #sls_mod {float:none;order:1;width:100%}
+		
+
+        
+}
+
+@media only screen and (max-height : 700px) {
+
+/*====================================================================================================
+		| ----------------------------- | Glosary Popup |----------------------------- |
+====================================================================================================*/
+#Glossary .Terms {height:75%}
+
+}
+
+
+@media only screen and (max-height : 600px) {
+
+/*====================================================================================================
+		| ----------------------------- | Glosary Popup |----------------------------- |
+====================================================================================================*/
+#Glossary .Terms {height:70%}
+
+}
+	
+@media only screen and (max-height : 500px) {
+
+/*====================================================================================================
+		| ----------------------------- | Glosary Popup |----------------------------- |
+====================================================================================================*/
+#Glossary .Terms {height:65%}
+	
+}
+
+@media only screen and (max-height : 440px) {
+
+/*====================================================================================================
+		| ----------------------------- | Glosary Popup |----------------------------- |
+====================================================================================================*/
+#Glossary .Terms {height:60%}
+	
+}
+
+@media only screen and (max-height : 390px) {
+
+/*====================================================================================================
+		| ----------------------------- | Glosary Popup |----------------------------- |
+====================================================================================================*/
+#Glossary .Terms {height:55%}
+	
+}
+
+@media only screen and (max-height : 360px) {
+
+/*====================================================================================================
+		| ----------------------------- | Glosary Popup |----------------------------- |
+====================================================================================================*/
+#Glossary .Terms {height:50%}
+	
+}
+
+@media only screen and (max-height : 320px) {
+
+/*====================================================================================================
+		| ----------------------------- | Glosary Popup |----------------------------- |
+====================================================================================================*/
+#Glossary .Terms {height:45%}
+	
+}				
+
+/*====================================================================================================
+			| ----------------------------- | Super Codes |----------------------------- |
+====================================================================================================*/	
+
+	
+.no-gutter > [class*='col-'] {
+padding-right:0;
+padding-left:0;
+}
+
+.gutter-5px > [class*='col-'] {
+padding-right:5px;
+padding-left:5px;
+}
+
+.no-gutter-left {padding-left:0}
+
+.no-gutter-right {padding-right:0;}
+
+img.sample{width:100%;height:auto}
+
+video.Resp{width:100%;height:auto;max-width:284px;display:block;margin:auto}
+
+
+.hidden {display:none;visibility:hidden}
+
+/* make the div as table */
+
+.table{
+display: table;
+width:100%;
+border-collapse:collapse;
+}
+
+.table-row{
+display: table-row;
+  }
+
+.table-cell, .table-head{
+display: table-cell;
+/*padding:1em;*/
+/*border:#f0f0f0 1px solid;*/
+
+}
+
+.table-head{
+font-weight:bold;
+}

@@ -1,0 +1,1153 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* A list of Font Awesome icons and their CSS content values | and make the icon bg | http://astronautweb.co/snippet/font-awesome/#comment-194592 */
+/*#HomeAbout a.Btn .Icon:before { content: "\f02d"; 
+    position:relative;
+	font-family: FontAwesome;
+	font-size:2em;
+	color:#FFFFFF;
+    left:5%;
+	top:25%;
+	
+    }*/
+	
+/* how to flip glyphicon icon | http://stackoverflow.com/questions/18609819/how-to-flip-glyphicon-icon |  */
+
+/* https://fortawesome.github.io/Font-Awesome/examples/ | Rotated & Flipped | fa-flip-horizontal & fa-flip-vertical */
+
+/*#HomeNews .ContentWraqpper .NewsBox .Data a.More .icon {position:relative;
+		
+		-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);	
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";;}	*/
+	
+
+/* Import Arabic Fonts | Basheert */
+
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+
+/* font-family: 'Droid Arabic Kufi', Arial, Helvetica, sans-serif */
+
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+/* font-family: 'Droid Arabic Naskh', Arial, Helvetica, sans-serif */
+
+/* ****************************   Home  | Inline Style on the home  **************************** */
+
+#TopContacts.active a {color:#FFF  !important}
+
+body {direction:rtl;font-family: 'Droid Arabic Naskh', serif}
+
+/* Upper Area */
+
+.TopEmailWord {font-size:12px}
+
+/* Slider */
+
+div.tp-bullets {direction:rtl !important}
+
+div.tp-bullets div {float:right !important}
+
+div.slider-container {background:#FFF !important}
+
+.slider-container {min-height:inherit !important}
+
+/* Menu */
+
+#header nav ul.nav-main li a {font-family: 'Droid Arabic Kufi', Arial, Helvetica, sans-serif;font-weight:bold;font-size:13px}
+
+#header nav ul.nav-main ul.dropdown-menu > li > a {font-family: 'Droid Arabic Kufi', Arial, Helvetica, sans-serif;font-weight:normal;font-size:13px}
+
+button.btn-responsive-nav {left:20px}
+
+/**/
+div.feature-box div.feature-box-icon {
+}
+div.feature-box div.feature-box-icon {
+    display: inline-block;
+    float: right;
+    height: 39px;
+    line-height: 50px;
+    margin-left: 26px;
+    position: relative;
+    text-align: center;
+    top: 0;
+    width: 35px;
+}
+div.feature-box div.feature-box-icon {
+    background: none ;
+}
+div.feature-box div.feature-box-icon {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 0;
+    display: inline-block;
+    float: right;
+    height: 75px;
+    line-height: 35px;
+    margin-right: 29px;
+    position: relative;
+    text-align: center;
+    top: 2px;
+    width: 35px;
+}
+div.home-intro{background-color:#024c88;}
+.btn-primary1, .pagination > .active > a{background-color:#212224;}
+.btn-primary1:hover{background-color:#666666;}
+
+.input-group{border-radius:20px !important;}
+
+/**/
+.word-rotate-items {line-height:45px}
+/* ****************************   Home | My New Work | Basheer  **************************** */
+
+.search {margin-top:0px !important}
+
+#UpperHomeEmail {margin-top:0px !important}
+
+#UpperHomeEmail ul {margin-top:5px !important}
+
+#TopContacts {margin-top:-5px}
+
+.DolfMoto01 {margin-top:20px}
+
+.home-intro {padding-bottom:0px;margin-bottom:0px !important}
+
+.ColMenuTxt {font-family: 'Droid Arabic Naskh', serif;}
+
+.HomeShadow {width:100%;height:38px;clear:both;background:url(../img/NewWork/HomeShadow.png) center no-repeat;position:absolute;z-index:9}
+
+.HomeShadow.top-20 {margin-top:-20px}
+
+/* language switcher */
+
+.LangWrapper {width:100px;float:left;}
+
+.LangWrapper a.item {display:inline-block;width:36px;height:30px;border-radius:5px;color:#515151;font-weight:bold;text-align:center;line-height:30px;cursor:pointer;margin:0px 3px;float:left}
+
+.LangWrapper a:hover.item {color:#024c88;text-decoration:none}
+
+.LangWrapper a.item#EnLink {font-family: 'Open Sans', Arial, sans-serif;background:#ededed;cursor:pointer;font-size:15px}
+
+.LangWrapper a.item#ArLink {font-family: 'Droid Arabic Naskh', serif;font-size:18px;cursor:default}
+
+.LangWrapper a.Active.item {background-color:#024c88 !important;color:#FFF !important}
+
+
+/* Repair Menu Style */
+
+#header nav ul.nav-main {
+	margin: -7px 0 8px 0px;
+}
+
+
+#header nav ul.nav-main li a {padding:10px 10px}
+
+.social-icons {clear:none !important;margin-left:-12px;margin-top:0px !important}
+
+
+/* Home About & News */
+
+#HomeAboutNews {width:100%;position:relative;background:url(../img/NewWork/Home_About-News-Bg.jpg) top center;padding:25px 0px}
+
+#HomeAboutNews .BigShadow {width:100%;height:38px;position:absolute;top:0;background:url(../img/NewWork/HomeShadow2.png) top center no-repeat}
+
+#HomeAboutNews .Box {width:100%;float:right;position:relative}
+
+#HomeAboutNews .Box > .Title {float:right;position:relative;width:280px}
+
+#HomeAboutNews .Box .Title img.Icon {display:inline-block;position:relative;float:right}
+
+#HomeAboutNews .Box .Title .Data {display:inline-block;position:relative;float:right;margin-right:10px;margin-top:18px}
+
+#HomeAboutNews .Box .Title .Data1 {display:block;position:relative;color:#003867;font-family: 'Droid Arabic Kufi', Arial, Helvetica, sans-serif;font-weight:bold;font-size:32px;clear:both;letter-spacing:-2px}
+
+#HomeAboutNews .Box .Title .Data2 {display:block;position:relative;color:#1c8cd6;font-weight:bold;font-size:16px;margin-top:10px;clear:both}
+
+ #HomeAboutNews .Box.About .Content {width:100%;float:right;position:relative;margin-top:15px;font-size:16px;color:#343434;line-height:27px}
+ 
+  #HomeAboutNews .Box.About .Content img.Pic {display:inline-block;position:relative;border-radius: 20px;box-shadow: 5.283px 4.592px 2px 0px rgba(36, 36, 36, 0.2);width: 171px;
+  height: 178px;float:right;margin-left:20px}
+  
+  #HomeAboutNews .Box.About .Content span.Data {display:inline-block;width:330px;height:175px;overflow:hidden;float:right;position:relative;padding-top:15px}
+  
+  #HomeAboutNews .Box.News .NewsContent {width:100%;float:right;position:relative;clear:both;margin-top:0px;font-size:16px;color:#343434;line-height:27px}
+  
+  #HomeAboutNews .Box.News .NewsContent a.Item {display:block;width:100%;float:right;position:relative;padding:10px}
+  
+   #HomeAboutNews .Box.News .NewsContent a:hover.Item {background:#DCDCDC;border-radius:20px;
+   -webkit-transition: background .35s ease-in;
+-moz-transition: background .35s ease-in;
+-ms-transition: background .35s ease-in;
+-o-transition: background .35s ease-in;
+transition: background .35s ease-in;
+   }
+  
+  #HomeAboutNews .Box.News .NewsContent .Item img.Pic {display:inline-block;position:relative;border-radius: 20px;box-shadow: 5.283px 4.592px 2px 0px rgba(36, 36, 36, 0.2);width: 171px;height: 178px;float:right;margin-left:20px;margin-bottom:5px}
+  
+  #HomeAboutNews .Box.News .NewsContent .Item span.Data {display:inline-block;width:340px;height:166px;overflow:hidden;float:right;position:relative;}
+  
+  #HomeAboutNews .Box.News .NewsContent .Item span.Data span.Title {display:block;color:#003867;font-weight:bold;font-size:17px;margin-bottom:2px}
+  
+  #HomeAboutNews .Box.News .NewsContent .Item span.Data span.Date {display:block;color:#3a9feb;font-weight:600;font-size:17px;margin-bottom:5px}
+  
+  #HomeAboutNews .Box.News .NewsContent .Item span.Data span.Content {display:block;color:#343434;font-size:16px}
+  
+  
+  
+  #HomeAboutNews .Box a.Btn {display:block;width:271px;height:51px;background:url(../img/NewWork/HomeBtn_01_Normal_Ar.png);position:relative;margin-right:180px;top:20px;float:right}
+  
+  #HomeAboutNews .Box.News a.Btn {top:5px}
+  
+  #HomeAboutNews .Box a.Btn span {display:inline-block;position:relative;float:right}
+  
+  #HomeAboutNews .Box a.Btn span.icon {right:21px;top:12px}
+  
+  #HomeAboutNews .Box a.Btn span.txt {right:40px;top:14px;color:#1981b3;font-weight:600}
+  
+  #HomeAboutNews .Box a:hover.Btn {background:url(../img/NewWork/HomeBtn_01_Hover_Ar.png);
+  /*-webkit-transition: background .35s ease-in;
+-moz-transition: background .35s ease-in;
+-ms-transition: background .35s ease-in;
+-o-transition: background .35s ease-in;
+transition: background .35s ease-in;*/}
+  
+
+ /* Statistics Area */
+
+.StatisticsArea {/*background:url(../img/NewWork/parallax-image-2.jpg) no-repeat center;background-size:cover;*/margin:0px 0px;color:#FFF}
+
+.StatisticsArea.MarginUD {margin:25px 0px;margin-top:5px}
+
+.StatisticsArea strong {padding:15px 0px}
+
+.StatisticsArea .fa {font-size:50px}
+
+/* OurClientsSlider */
+
+.OurClientsSlider img {display:block;margin:auto}
+
+
+
+
+#FooterLogos {padding-top:25px}
+
+/* Footer */
+
+footer#footer  {
+	background: #003867 url(../img/NewWork/MainPattern.png);
+	border-top: 4px solid #002247;
+	}
+	
+footer#footer  p {color:#f7f7f7}
+
+footer#footer label {color:#69bbfd}
+
+div.footer-copyright {background: #003867 url(../img/NewWork/MainPattern2.png);border-top: 2px solid #050c14;}
+
+
+.home-intro	 {background: #003867 url(../img/NewWork/MainPattern3.png)}
+
+.get-started a.btn-primary {
+  
+ background-image: -moz-linear-gradient( 90deg, rgb(4,113,184) 0%, rgb(32,153,212) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(4,113,184) 0%, rgb(32,153,212) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(4,113,184) 0%, rgb(32,153,212) 100%);}
+
+.get-started a:hover.btn-primary  {
+
+  background-image: -moz-linear-gradient( 90deg, rgb(32,153,212) 0%, rgb(4,113,184) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(32,153,212) 0%, rgb(4,113,184) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(32,153,212) 0%, rgb(4,113,184) 100%);
+
+}
+
+/* Master Page & About us */
+
+.page-top.AboutUsHeader {background:url(../img/NewWork/InnerHeader_AboutUs.jpg) center center;background-size:cover}
+
+.page-top.SolutionsHeader {background:url(../img/NewWork/InnerHeader_Solutions_Ar.jpg) center center;background-size:cover}
+
+.page-top.ServisesHeader {background:url(../img/NewWork/InnerHeader_Servises_Ar.jpg) center center;background-size:cover}
+
+.page-top.ClintsHeader {background:url(../img/NewWork/InnerHeader_Clints_Ar.jpg) center center;background-size:cover}
+
+.page-top.PartnersHeader {background:url(../img/NewWork/InnerHeader_Partners_Ar.jpg) center center;background-size:cover}
+
+.page-top.NewsHeader {background:url(../img/NewWork/InnerHeader_News_Ar.jpg) center center;background-size:cover}
+
+.page-top.GalleryHeader {background:url(../img/NewWork/InnerHeader_Gallery.jpg) center center;background-size:cover}
+
+.page-top.ContactsHeader {background:url(../img/NewWork/InnerHeader_Contacts_Ar.jpg) center center;background-size:cover}
+
+.page-top.SearchHeader {background:url(../img/NewWork/InnerHeader_Search_Ar.jpg) center center;background-size:cover}
+
+.page-top.FAQHeader {background:url(../img/NewWork/InnerHeader_FAQ.jpg) center center;background-size:cover}
+
+.page-top.SitemapHeader {background:url(../img/NewWork/InnerHeader_Sitemap_Ar.jpg) center center;background-size:cover}
+
+.page-top .breadcrumb {display:inline-block;position:relative !important;background:url(../img/NewWork/breadcrumb_Item_bg.png) !important;padding:5px !important;bottom:-14px;padding-left:20px !important;border-radius:0px}
+
+.page-top .breadcrumb li a {color:#3faaff}
+
+.page-top .breadcrumb li {color:#FFF}
+
+.page-top h2 {text-shadow: 1px 1px 1px #000000;font-weight:600 !important;background:url(../img/NewWork/breadcrumb_Item_bg.png);line-height:45px !important;margin-bottom:-20px !important;position:relative !important;bottom:-17px;padding-right:10px !important;padding-left:50px !important;min-height:50px !important;border-bottom: 5px solid #CCC;	color: #FFF;display: inline-block; font-family: 'Droid Arabic Kufi', Arial, Helvetica, sans-serif}
+
+.mba_SideMenu {width:100%;height:auto;float:right;position:relative;}
+
+.mba_SideMenu .Shadow {position:absolute;left:0px;top:0px;width:20px;height:90%;background:url(../img/NewWork/SideMenuShad_Ar.png) left top no-repeat, url(../img/NewWork/SideMenuShad29.png) right bottom no-repeat;background-size:contain, auto;z-index:9}
+
+.mba_SideMenu .header {width:100%;min-height:55px;float:right;position:relative;background:#eaeaea;-webkit-border-radius: 0 25px 0 0;border-radius: 0 25px 0 0;border:1px solid #d7d7d7}
+
+.mba_SideMenu .header .IconArea {width:65px;min-height:55px;background:#1c93d0;-webkit-border-radius: 0 25px 0 0;border-radius: 0 25px 0 0;float:right}
+
+.mba_SideMenu .header .IconArea.icon01 {background:url(../img/NewWork/Icon01.png) center center no-repeat #1c93d0;}
+
+.mba_SideMenu .header .Title {display:inline-block;float:right;min-height:55px;line-height:55px;margin-right:10px;color:#1c93d0;font-size:18px;text-transform:uppercase;font-weight:600;font-family: 'Droid Arabic Kufi', Arial, Helvetica, sans-serif}
+
+.mba_SideMenu .Content {width:100%;padding:15px;min-height:250px;margin-top:5px;float:right;position:relative;-webkit-border-radius: 0px 0 25px 0;border-radius: 0px 0 25px 0;border:1px solid #d7d7d7;background:url(../img/NewWork/SideMenuContentBg_Ar.png) bottom right no-repeat #eaeaea;background-size:100%;padding-bottom:0px}
+
+.mba_SideMenu .Content ul {margin:0;padding:0;}
+
+.mba_SideMenu .Content ul li {margin:0;padding:0;list-style:none none;display:block;clear:both}
+
+.mba_SideMenu .Content ul.Level01 li.Item {color:#1e96d2;font-size:20px;padding-bottom:5px;margin-bottom:5px;font-weight:400;}
+
+.mba_SideMenu .Content ul.Level01 li.Item a {display:inline-block;position:relative;top: 25%;transform: translateY(-25%);color:#1e96d2;font-size:20px;font-family: 'Droid Arabic Kufi', Arial, Helvetica, sans-serif}
+
+.mba_SideMenu .Content ul.Level01 li.Active.Item:before { content: url(../img/NewWork/SideMenu_Icon10.png); 
+    position:relative;
+	font-family: FontAwesome;
+	right:0%;
+	bottom:50%;
+	padding-left:5px;
+    }
+	
+.mba_SideMenu .Content ul.Level01 li.About.Item:before { content: url(../img/NewWork/SideMenu_Icon0.png); 
+     position:relative;
+	font-family: FontAwesome;
+	right:0%;
+	bottom:50%;
+	padding-left:5px;
+    }
+
+.mba_SideMenu .Content ul.Level01 li.Partners.Item:before { content: url(../img/NewWork/SideMenu_Icon1.png); 
+     position:relative;
+	font-family: FontAwesome;
+	right:0%;
+	bottom:50%;
+	padding-left:5px;
+    }
+	
+	.mba_SideMenu .Content ul.Level01 li.Solutions.Item:before { content: url(../img/NewWork/SideMenu_Icon4.png); 
+     position:relative;
+	font-family: FontAwesome;
+	right:0%;
+	bottom:50%;
+	padding-left:5px;
+    }
+	
+	.mba_SideMenu .Content ul.Level01 li.Servises.Item:before { content: url(../img/NewWork/SideMenu_Icon5.png); 
+    display:inline-block;
+	position:relative;
+	font-family: FontAwesome;
+	right:0%;
+	bottom:50%;
+	padding-right:0px;
+	-moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);	
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    }
+	
+	
+	.mba_SideMenu .Content ul.Level01 li.Contacts.Item:before { content: url(../img/NewWork/SideMenu_Icon2.png); 
+    display:inline-block;
+	position:relative;
+	font-family: FontAwesome;
+	right:0%;
+	bottom:50%;
+	padding-right:5px;
+	-moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);	
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+		
+    }
+	
+	.mba_SideMenu .Content ul.Level01 li.OurClients.Item:before { content: url(../img/NewWork/SideMenu_Icon6.png); 
+     position:relative;
+	font-family: FontAwesome;
+	right:0%;
+	bottom:50%;
+	padding-left:5px;
+    }
+	
+	.mba_SideMenu .Content ul.Level01 li.OurNews.Item:before { content: url(../img/NewWork/SideMenu_Icon7.png); 
+    display:inline-block;
+	position:relative;
+	font-family: FontAwesome;
+	right:0%;
+	bottom:50%;
+	padding-right:5px;
+	-moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);	
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    }
+	
+	.mba_SideMenu .Content ul.Level01 li.Gallery.Item:before { content: url(../img/NewWork/SideMenu_Icon8.png); 
+    display:inline-block;
+	position:relative;
+	font-family: FontAwesome;
+	right:0%;
+	bottom:50%;
+	padding-right:5px;
+	-moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);	
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    }
+	
+	.mba_SideMenu .Content ul.Level01 li.Home.Item:before { content: url(../img/NewWork/SideMenu_Icon9.png); 
+    position:relative;
+	font-family: FontAwesome;
+	right:0%;
+	bottom:50%;
+	padding-left:5px;
+    }
+
+.mba_SideMenu .Content .Sep {background:url(../img/NewWork/SideMenuSep_Ar.png) right bottom no-repeat;}
+
+.mba_SideMenu .Content div.Sep {background:url(../img/NewWork/SideMenuSep_Ar.png) right bottom no-repeat;height:2px;margin:5px 0px}
+
+.mba_SideMenu .Content ul.Level02 {margin-top:10px;margin-right:12px}
+
+.mba_SideMenu .Content ul.Level02 li.Item {margin-bottom:7px;padding-bottom:3px;padding-top:3px;border-bottom:dashed 1px #BFBFBF;position:relative}
+
+.mba_SideMenu .Content ul.Level02 li.Item.Last {border-bottom:none;margin-bottom:0;padding-bottom:3px} 
+
+.mba_SideMenu .Content ul.Level02 li.Item a {display:inline-block;position:relative;top: 10%;transform: translateY(-10%);color:#1e96d2;font-size:20px;font-family: 'Droid Arabic Naskh', Arial, Helvetica, sans-serif}
+
+.mba_SideMenu .Content ul.Level02 li.Item:before { content: "\f054"; 
+    display:inline-block;float:right;
+	position:relative;
+	font-family: FontAwesome;
+	font-size:16px;
+	color:#5b5b5b;
+    right:0%;
+	top:50%;
+	padding-right:3px;
+	-moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);	
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+	}
+	
+.mba_SideMenu .Content ul.Level02 li.Item a {color:#5b5b5b;font-size:16px}
+
+.mba_SideMenu .Content a {text-decoration:none}
+
+.mba_SideMenu .Content a:hover {color:#024c88 !important}
+
+.mba_SideMenu li.Current a {font-weight:bold;color:#0775bb !important}
+
+.mba_SideMenu li.Current:before  {color:#0775bb !important}
+
+.mba_SideMenu.Single .Level01 > li {margin-top:15px;margin-bottom:15px}
+
+.mba_SideMenu.Single .Level01 > li.first {margin-top:0px}
+
+.ABoutUsBox {width:100%;float:right}
+
+.ABoutUsBox .Title {width:100%;float:right;margin-top:20px;background:url(../img/NewWork/AboutSTitleCircle.png) left center no-repeat, url(../img/NewWork/AboutSTitleDoted.png) center repeat-x }
+
+.ABoutUsBox .Title .icon {display:inline-block;width:41px;height:50px;float:right;background:#FFF;}
+
+.ABoutUsBox .Title span {display:inline-block;background:#FFF;padding:0px 10px;float:right;line-height:41px;font-weight:600;font-size:30px;color:#025496;font-family: 'Droid Arabic Kufi', Arial, Helvetica, sans-serif}
+
+.ABoutUsBox .content {width:100%;float:right;margin-top:15px;margin-bottom:15px}
+
+.ABoutUsBox .content .icon {width:18%;height:auto;margin:0% 3%;float:right;position:relative}
+
+.ABoutUsBox .content .icon img {display:block;position:relative;margin:auto;max-width:100%;height:auto}
+
+.ABoutUsBox .content .text {width:76%;display:block;float:right;color:#5b5b5b;font-size:18px;line-height:200%}
+
+#AboutUsLink > a, #SolutionsLink > a {cursor:default}
+
+.AdvBox {width:100%;float:right}
+
+.AdvBox .Title {width:100%;float:right;margin-top:20px;background:url(../img/NewWork/AboutSTitleCircle.png) left center no-repeat, url(../img/NewWork/AboutSTitleDoted.png) center repeat-x }
+
+.AdvBox .Title .icon {display:inline-block;width:41px;height:50px;float:right;background:#FFF;}
+
+.AdvBox .Title span {display:inline-block;background:#FFF;padding:0px 10px;float:right;line-height:41px;font-weight:600;font-size:25px;color:#025496;font-family: 'Droid Arabic Kufi', Arial, Helvetica, sans-serif}
+
+.AdvBox .content {width:100%;float:right;margin-top:15px;margin-bottom:15px}
+
+.AdvBox .content .icon {width:18%;height:auto;margin:0% 4%;float:right;position:relative;padding-top:10px}
+
+.AdvBox .content .icon img {display:block;position:relative;margin:auto;max-width:100%;height:auto}
+
+.AdvBox .content .text {width:72%;display:block;float:right;color:#5b5b5b;font-size:16px;line-height:200%;text-align:justify}
+
+.AdvBox .content .text .intro {font-weight:bold; color:#025496}
+
+.AdvBox .content .text ul {margin-top:20px;margin-right:20px}
+
+.AdvBox .content .text ul li {list-style-image:url(../img/NewWork/AdvIconP.png);margin-bottom:20px;font-size:16px;line-height:180%}
+
+.SSBox{width:100%;float:left;background:url(../img/NewWork/Solutions_CustomLearning_PatFadTop.png) top repeat-x, url(../img/NewWork/Solutions_CustomLearning_PatFadLeft.png) left repeat-y, url(../img/NewWork/Solutions_CustomLearning_PatFadBot.png) bottom repeat-x, url(../img/NewWork/Solutions_Pages_Pat.jpg)}
+
+.SSBox .Title {width:100%;float:left;margin-top:0px;background:url(../img/NewWork/AboutSTitleCircle.png) right center no-repeat, url(../img/NewWork/AboutSTitleDoted.png) center repeat-x }
+
+.SSBox .Title .icon {display:inline-block;width:41px;height:50px;float:left;background:#FFF;}
+
+.SSBox .Title span {display:inline-block;background:#FFF;padding:0px 10px;float:left;line-height:41px;font-weight:600;font-size:30px;color:#025496}
+
+.SSBox .content {width:100%;float:left;margin-top:15px;margin-bottom:15px}
+
+.SSBox .content .icon {width:21%;height:auto;margin:0% 3%;float:left;position:relative}
+
+.SSBox .content .icon img {display:block;position:relative;margin:auto;max-width:100%;height:auto}
+
+.SSBox .content .text {width:71%;padding-right:1%;display:block;float:left;color:#000;font-size:16px;line-height:200%;text-align:justify}
+
+.SSBox .content .text p {color:#2c2c2c;line-height:180%}
+
+.SSBox .pic {width:100%;float:left;clear:both}
+
+.SSBox .pic img {display:block;margin:auto;max-width:100%;height:auto}
+
+.SolutionsPagesPattern {background:url(../img/NewWork/Solutions_PatFadBot.png) bottom repeat-x, url(../img/NewWork/Solutions_PatFadLeft.png) left repeat-y, url(../img/NewWork/Solutions_PatFadRight.png) right repeat-y, url(../img/NewWork/Solutions_Pages_Pat2.png);}
+
+.SearchPagesPattern {background:url(../img/NewWork/Solutions_PatFadBot.png) bottom repeat-x, url(../img/NewWork/Solutions_PatFadLeft.png) left repeat-y, url(../img/NewWork/Solutions_PatFadRight.png) right repeat-y, url(../img/NewWork/SearchPagesPattern.jpg);}
+
+/* Clients */
+
+#ClientsControl {}
+
+#ClientsControl li {margin-left:2px !important;min-height:60px}
+
+#ClientsControl a {color:#007ece;font-weight:600;font-size:16px;display:block;float:right}
+
+#ClientsControl a span {display:inline-block;position:relative;top:-8px}
+
+#ClientsControl a#ClientsOPtion01:before { content: url(../img/NewWork/ClientsLogo00.png); 
+    position:relative;
+	display:inline-block;
+	font-family: FontAwesome;
+	font-size:1.8em;
+	color:#99ba00;
+    left:10px;
+	top:0;
+	
+    }
+
+#ClientsControl a#ClientsOPtion02:before { content: url(../img/NewWork/ClientsLogo01.png); 
+    position:relative;
+	display:inline-block;
+	font-family: FontAwesome;
+	font-size:1.8em;
+	color:#99ba00;
+    left:5px;
+	top:0;
+	
+    }
+	
+	#ClientsControl a#ClientsOPtion03:before { content: url(../img/NewWork/ClientsLogo02.png); 
+    position:relative;
+	display:inline-block;
+	font-family: FontAwesome;
+	font-size:1.8em;
+	color:#99ba00;
+    left:5px;
+	top:0;
+	
+    }
+	
+	#ClientsControl a#ClientsOPtion04:before { content: url(../img/NewWork/ClientsLogo03.png); 
+    position:relative;
+	display:inline-block;
+	font-family: FontAwesome;
+	font-size:1.8em;
+	color:#99ba00;
+    left:5px;
+	top:-2px;
+	
+    }
+	
+	#ClientsControl a#ClientsOPtion05:before { content: url(../img/NewWork/ClientsLogo04.png); 
+    position:relative;
+	display:inline-block;
+	font-family: FontAwesome;
+	font-size:1.8em;
+	color:#99ba00;
+    left:5px;
+	top:-2px;
+	
+    }
+
+#ClientsControl li.active a:before {color:#FFF} 
+
+#ClientsControl li.active a {color:#FFF !important;background:url(../img/NewWork/Arrow01.png), url(../img/NewWork/ClientsActBg.png);background-position:50% 85%, top;background-repeat:no-repeat, repeat-x;border-radius:7px;background-size:auto, contain;
+-webkit-transition: color .5s ease-in;
+-moz-transition: color .5s ease-in;
+-ms-transition: color .5s ease-in;
+-o-transition: color .5s ease-in;
+transition: color .5s ease-in;}
+
+
+#ClientsControl li.active a#ClientsOPtion01:before {content: url(../img/NewWork/ClientsLogo00-w.png)}
+
+#ClientsControl li.active a#ClientsOPtion02:before {content: url(../img/NewWork/ClientsLogo01-w.png)}
+
+#ClientsControl li.active a#ClientsOPtion03:before {content: url(../img/NewWork/ClientsLogo02-w.png)}
+
+#ClientsControl li.active a#ClientsOPtion04:before {content: url(../img/NewWork/ClientsLogo03-w.png)}
+
+#ClientsControl li.active a#ClientsOPtion05:before {content: url(../img/NewWork/ClientsLogo04-w.png)}
+
+.portfolio-list .thumb-info-inner {font-family: 'Droid Arabic Kufi', Arial, Helvetica, sans-serif;font-size:15px}
+
+.portfolio-list .thumb-info-type {float:right !important; font-size:13px !important;}
+
+
+.main.NewsPagesPattern .mba_SideMenu li a, .main.SearchPagesPattern .mba_SideMenu li a  {font-size:18px !important}
+
+
+/* News */
+
+
+
+#NewsMain  {margin-bottom:20px}
+
+#NewsMain .NewsBox {float:right}
+
+/*#NewsMain div:hover.NewsBox {
+	background:#F1F1F1;border-radius:20px;box-shadow:#E8E8E8 0 0 0 1px inset ;padding:15px;
+-webkit-transition: all 0.25s ease-in;
+-moz-transition: all 0.25s ease-in;
+-ms-transition: all 0.25s ease-in;
+-o-transition: all 0.25s ease-in;
+transition: all 0.25s ease-in;
+	
+	}*/
+
+#NewsMain .NewsBox .Pic {width:16%;margin-left:3%;float:right}
+
+#NewsMain .NewsBox .Pic img {display:block;width:100%;height:auto;float:right;border-radius: 20px;box-shadow: 5.283px 4.592px 2px 0px rgba(36, 36, 36, 0.2);}
+
+#NewsMain .NewsBox .Data {width:81%;max-width:100%;float:right}
+
+#NewsMain .NewsBox .Data .Title {font-size:17px;color:#003867;font-weight:bold;line-height:150%;margin-bottom:5px}
+
+#NewsMain .NewsBox .Data .Date {font-size:15px;color:#3a9feb;font-weight:bold;line-height:150%;margin-bottom:5px}
+
+#NewsMain .NewsBox .Data .Brif {font-size:15px;color:#181818;line-height:180%;margin-bottom:5px}
+
+#NewsMain .NewsBox .Data a.More, #NewsMain .NewsBox .Data a:hover.More {display:block;text-decoration:none;width:190px;height:30px;line-height:30px;margin-top:20px}
+
+#NewsMain .NewsSep {width:100%;height:30px;margin-bottom:29px;clear:both;border-bottom:#ABABAB 1px dotted}
+
+#NewsMain .NewsBox .Data a.More .icon {position:relative;
+		/*flip glyphicon icon*/
+		-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);	
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";;}
+
+/* A list of Font Awesome icons and their CSS content values | http://astronautweb.co/snippet/font-awesome/#comment-194592 */
+#NewsMain .NewsBox .Data a.More .icon:before { content: "\f0c1"; position:relative;font-family: FontAwesome;font-size:1.3em;color:#010101;right:0%;top:25%}
+
+#NewsMain .NewsBox .Data a.More .text {display:inline-block;position:relative;top:20%;color:#025496;font-size:1.1em;font-weight:bold;padding-right:3px;white-space:nowrap}
+
+#NewsMain .NewsBox .Data a:hover.More .icon:before, #NewsMain .NewsBox .Data a:hover.More .text {color:#3a9feb;text-decoration:none}
+
+.NewsPagesPattern {background:url(../img/NewWork/Solutions_PatFadBot.png) bottom repeat-x, url(../img/NewWork/Solutions_PatFadLeft.png) left repeat-y, url(../img/NewWork/Solutions_PatFadRight.png) right repeat-y, url(../img/NewWork/News_Pages_Pat3.png);}
+
+
+
+#NewsDetails {}
+
+#NewsDetails .Pic {margin:20px 0px}
+
+#NewsDetails .Pic  img {width:100%;height:auto;}
+
+#NewsDetails .Title {font-size:24px;color:#003867;font-weight:bold;line-height:150%;margin-bottom:10px;font-family: 'Droid Arabic Kufi', Arial, Helvetica, sans-serif;letter-spacing:-1px}
+
+#NewsDetails .Date {font-size:15px;color:#3a9feb;font-weight:600;line-height:150%;margin-bottom:10px}
+
+#NewsDetails .Date:before { content: "\f073"; 
+    position:relative;
+	font-family: FontAwesome;
+	font-size:17px;
+	color:#3a9feb;
+    right:0%;
+	top:25%;
+	padding-left:5px
+	
+    }
+
+
+
+ #NewsDetails .Data p { font-size:16px; line-height:180% ;color:#2C2C2C}
+ 
+ #NewsDetails .Data p.intro { font-size:21px; line-height:160%;color:#777 }
+
+#NewsDetails .Sep {width:100%;height:5px;margin-bottom:19px;clear:both;border-bottom:#ABABAB 1px dotted}
+
+#NewsDetails a.Back {display:inline-block;font-size:15px;color:#3a9feb;font-weight:600;line-height:150%;margin-bottom:10px}
+
+#NewsDetails a.Back:before { content: "\f122"; 
+    display:inline-block;
+	position:relative;
+	font-family: FontAwesome;
+	font-size:17px;
+	color:#3a9feb;
+    left:0%;
+	top:25%;
+	padding-right:5px;
+	-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);	
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+	
+    }
+
+#NewsDetails .Date:before { content: "\f073"; 
+    position:relative;
+	font-family: FontAwesome;
+	font-size:17px;
+	color:#3a9feb;
+    left:0%;
+	top:25%;
+	padding-right:5px
+	
+    }
+	
+	
+	
+	#GalleryMain a {display:inline-block;position:relative;width:22%;margin:0.75%;height:auto;}
+	
+	/* #GalleryMain a:last-child {display:block;float:none;clear:both;margin:1% auto} */
+	
+	#GalleryMain a img {display:block;width:100%;height:auto}
+	
+	#GalleryMain a:hover span.hover {display:block;width:96%;height:94%;position:absolute;float:left;background:#000;z-index:1;border-radius:5px;opacity: 0.35;
+	-webkit-transition: all .35s ease-in-out;
+-moz-transition: all .35s ease-in-out;
+-ms-transition: all .35s ease-in-out;
+-o-transition: all .35s ease-in-out;
+transition: all .35s ease-in-out;
+	
+	}
+	
+
+	
+	#GalleryMain a:hover span.zoom {position:absolute;z-index:3;}
+	
+	/* Search Page */
+	
+	#SearchPage {min-height:555px;background:url(../img/NewWork/SearchIcon.png) bottom right no-repeat}
+	
+	#SearchPage .Case01 {color:#024C88;font-size:1.4em;margin-top:15px}
+	
+	#SearchPage .Case02 {color:#FF0004;font-size:1.4em;margin-top:15px}
+	
+	#SearchPage ul.SearchResult {display:block;width:100%;border-top:1px dotted #9E9E9E;margin:0;padding:0;padding:20px 0px}
+	
+	#SearchPage ul.SearchResult li {display:block;width:100%;list-style:none;padding:15px;margin-bottom:15px;border-radius:10px;border:1px dotted #B4B4B4;-webkit-box-shadow: 5px 5px 0px 0 rgba(0,0,0,.5);box-shadow: 5px 5px 0px 0 rgba(0,0,0,.1);}
+	
+	#SearchPage ul.SearchResult li:hover {-webkit-box-shadow: 5px 5px 0px 0 rgba(28,147,208,.80);box-shadow: 5px 5px 0px 0 rgba(28,147,208,.80);
+	-webkit-transition: all .25s ease-in;
+-moz-transition: all .25s ease-in;
+-ms-transition: all .25s ease-in;
+-o-transition: all .25s ease-in;
+transition: all .25s ease-in;
+	
+	}
+	
+	#SearchPage ul.SearchResult li a {display:block;text-decoration:none}
+	
+	#SearchPage ul.SearchResult li:nth-child(odd) {background:url(../img/NewWork/SearchBoxBg01.png)}
+	
+	#SearchPage ul.SearchResult li:nth-child(even) {}
+	
+	#SearchPage ul.SearchResult li span.PageTitle {display:block;width:100%;font-size:16px;font-weight:bold;border-bottom:1px dotted #ACACAC;margin-bottom:10px}
+	
+	#SearchPage ul.SearchResult li span.Content {display:block;width:100%;color:#2B2B2B}
+	
+	#SearchPage ul.SearchResult li span.Content span.Highlight {display:inline-block;padding:5px;background:#ffffcf;border-radius:5px;border-bottom:1px dotted #9F9F9F }
+	
+
+/*FAQ*/
+
+#FAQMain span.FixMe{display:inline-block;position:relative;z-index:9}
+
+#FAQMain .toggle-content {padding:0 20px}
+
+/*Sitemap*/
+
+ul#SitemapPage  {width:100%}
+
+ul#SitemapPage li, ul#SitemapPage .NestedItem01, ul#SitemapPage .NestedItem02 {display:block;border-bottom:1px dotted #AAAAAA;line-height:200%;margin-bottom:10px;list-style:none}
+
+ul#SitemapPage li a {color:#044079;font-weight:bold;font-size:15px}
+
+ul#SitemapPage li:before { content: "\f053"; position:relative;font-family: FontAwesome;font-size:1em;color:#010101;right:0%;top:25%}
+
+ul#SitemapPage li li a {color:#0061b0;font-weight:bold;font-size:14px}
+
+ul#SitemapPage li li:before { content: "\f104"; position:relative;font-family: FontAwesome;font-size:1.5em;color:#010101;right:0%;top:25%;padding-left:5px}
+
+ul#SitemapPage li li li a {color:#4a494a;font-weight:normal;font-size:14px}
+
+ul#SitemapPage li li li:before { content: "\f0d9"; position:relative;font-family: FontAwesome;font-size:1.3em;color:#010101;right:0%;top:25%}
+
+ul#SitemapPage .NestedSection {border-bottom:none}
+
+ul#SitemapPage .NestedSection:before {content:normal}
+
+ul#SitemapPage .NestedItem01, ul#SitemapPage .NestedItem02 {display:inline-block;width:100%}
+
+ul#SitemapPage .NestedItem01:before { content: "\f053"; position:relative;font-family: FontAwesome;font-size:1em;color:#010101;left:0%;top:25%;padding-left:5px} 
+
+ul#SitemapPage .NestedItem02:before { content: "\f104"; position:relative;font-family: FontAwesome;font-size:1.3em;color:#010101;left:0%;top:25%;padding-left:5px} 
+
+ul#SitemapPage a {text-decoration:none}
+
+ul#SitemapPage a:hover {color:#f94000}
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+/*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+	
+	#HomeAboutNews .Box > .Title {float:none;width:270px;margin:auto}
+	
+	#HomeAboutNews .Box.About .Content img.Pic {display:block;position:relative;border-radius: 20px;box-shadow: 5.283px 4.592px 2px 0px rgba(36, 36, 36, 0.2);width: 171px;
+  height: 178px;float:none;margin:auto}
+  
+  	#HomeAboutNews .Box.About .Content span.Data {display:block;width:80%;float:none;position:relative;margin:auto;text-align:center;margin-top:0px;}
+	
+	#HomeAboutNews .Box a.Btn {display:block;width:271px;height:51px;background:url(../img/NewWork/HomeBtn_01_Normal.png);position:relative;margin:auto;top:10px;float:none}
+
+	
+	#HomeAboutNews .Box.News .NewsContent .Item img.Pic {display:block;position:relative;border-radius: 20px;box-shadow: 5.283px 4.592px 2px 0px rgba(36, 36, 36, 0.2);width: 171px;height: 178px;float:none;margin:auto;margin-bottom:5px}
+	
+	
+	
+	#HomeAboutNews .Box.News .NewsContent .Item span.Data {display:inline-block;width:100%;height:165px;overflow:hidden;float:right;position:relative;text-align:center;margin:auto}
+  
+  	#HomeAboutNews .Box.News .NewsContent .Item span.Data span.Title {display:block;color:#003867;font-weight:bold;font-size:19px;margin-bottom:2px}
+  
+  	#HomeAboutNews .Box.News .NewsContent .Item span.Data span.Date {display:block;color:#3a9feb;font-weight:600;font-size:17px;margin-bottom:2px}
+  
+  	#HomeAboutNews .Box.News .NewsContent .Item span.Data span.Content {display:block;color:#343434;font-size:16px}
+	
+
+	.mba_SideMenu {margin-top:20px}
+    }
+	
+	
+/* Medium Devices, Desktops */
+ @media only screen and (max-width : 994px) {
+	 
+	  #TopEmail {display:none}
+	
+	
+		#HomeAboutNews .Box > .Title {float:right;width:270px;margin:auto}
+	
+	#HomeAboutNews .Box.About .Content img.Pic {display:block;position:relative;border-radius: 20px;box-shadow: 5.283px 4.592px 2px 0px rgba(36, 36, 36, 0.2);width: 171px;
+  height: 178px;float:right;margin-left:25px}
+  
+  	#HomeAboutNews .Box.About .Content span.Data {display:block;width:70%;float:right;position:relative;margin:auto;text-align:justify;margin-top:0px;}
+	
+	#HomeAboutNews .Box a.Btn {display:block;width:271px;height:51px;background:url(../img/NewWork/HomeBtn_01_Normal.png);position:relative;margin:auto;top:10px;margin-bottom:25px}
+
+	
+	#HomeAboutNews .Box.News .NewsContent .Item img.Pic {display:block;position:relative;border-radius: 20px;box-shadow: 5.283px 4.592px 2px 0px rgba(36, 36, 36, 0.2);width: 171px;height: 178px;float:right;margin-left:25px;margin-bottom:5px}
+	
+	
+	
+	#HomeAboutNews .Box.News .NewsContent .Item span.Data {display:inline-block;width:70%;height:165px;overflow:hidden;float:right;position:relative;text-align:right;margin:auto}
+  
+  	#HomeAboutNews .Box.News .NewsContent .Item span.Data span.Title {display:block;color:#003867;font-weight:bold;font-size:19px;margin-bottom:2px}
+  
+  	#HomeAboutNews .Box.News .NewsContent .Item span.Data span.Date {display:block;color:#3a9feb;font-weight:600;font-size:17px;margin-bottom:2px}
+  
+  	#HomeAboutNews .Box.News .NewsContent .Item span.Data span.Content {display:block;color:#343434;font-size:16px}
+	
+	#HomeAboutNews .Box.News .NewsContent .slick-prev {top:230px;left:15px !important}
+	
+	#HomeAboutNews .Box.News .NewsContent .slick-next {top:230px;right:15px !important}
+	
+	
+	
+	
+	
+	/* News Page */
+		
+	#NewsMain .NewsBox .Pic {width:18%;margin-left:3%;float:right}
+
+	#NewsMain .NewsBox .Pic img {display:block;width:100%;height:auto;float:right;}
+
+	#NewsMain .NewsBox .Data {width:79%;max-width:100%;float:right}
+
+    #GalleryMain a {display:inline-block;position:relative;width:30%;margin:0.75%;height:auto;}
+	
+	}
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+	
+
+	
+	
+			 #HomeAboutNews .Box.About .Content span.Data {width:60%;}
+		 
+		 #HomeAboutNews .Box.News .NewsContent .Item span.Data {width:60%;}
+	
+	
+	
+	
+	.StatisticsArea label {padding-bottom:50px}
+	
+	.ABoutUsBox .content .icon {width:100%;clear:both;height:auto;margin:0% 3%;float:left;position:relative}
+
+	.ABoutUsBox .content .icon img {display:block;position:relative;margin:auto;max-width:100%;height:auto}
+
+	.ABoutUsBox .content .text {width:100%;clear:both;display:block;float:left;color:#5b5b5b;font-size:18px;line-height:200%;text-align:center;margin-top:20px}
+	
+    
+	.AdvBox .content {width:100%;float:right;margin-top:15px;margin-bottom:15px}
+
+	.AdvBox .content .icon {width:100%;clear:both;height:auto;float:right;position:relative;padding-top:10px}
+
+	.AdvBox .content .icon img {display:block;position:relative;margin:auto;max-width:100%;height:auto}
+
+	.AdvBox .content .text {width:100%;clear:both;display:block;float:right;color:#5b5b5b;font-size:16px;line-height:200%;text-align:right;margin-top:25px}
+
+	.AdvBox .content .text .intro {font-weight:bold; color:#025496}
+
+	.AdvBox .content .text ul {margin-top:20px;margin-right:20px}
+
+	.AdvBox .content .text ul li {list-style-image:url(../img/NewWork/AdvIconP.png);margin-bottom:20px;font-size:16px;line-height:180%}
+	
+	.SSBox .Title span {font-size:25px;}
+	
+	
+	#NewsMain .NewsBox .Pic {width:20%;margin-left:3%;float:right}
+
+	#NewsMain .NewsBox .Pic img {display:block;width:100%;height:auto;float:right}
+
+	#NewsMain .NewsBox .Data {width:77%;max-width:100%;float:right}
+	
+	#GalleryMain a {display:inline-block;position:relative;width:45%;margin:0.75%;height:auto;}
+	}
+
+
+ @media only screen and (max-width : 660px) {
+	 
+	 #HomeAboutNews .Box > .Title {float:none;width:270px;margin:auto}
+	
+	#HomeAboutNews .Box.About .Content img.Pic {display:block;position:relative;border-radius: 20px;box-shadow: 5.283px 4.592px 2px 0px rgba(36, 36, 36, 0.2);width: 171px;
+  height: 178px;float:none;margin:auto}
+  
+  	#HomeAboutNews .Box.About .Content span.Data {display:block;width:80%;float:none;position:relative;margin:auto;text-align:center;margin-top:0px;}
+	
+	#HomeAboutNews .Box a.Btn {display:block;width:271px;height:51px;background:url(../img/NewWork/HomeBtn_01_Normal.png);position:relative;margin:auto;top:10px;margin-bottom:25px}
+
+	
+	#HomeAboutNews .Box.News .NewsContent .Item img.Pic {display:block;position:relative;border-radius: 20px;box-shadow: 5.283px 4.592px 2px 0px rgba(36, 36, 36, 0.2);width: 171px;height: 178px;float:none;margin:auto;margin-bottom:5px}
+	
+	
+	
+	#HomeAboutNews .Box.News .NewsContent .Item span.Data {display:inline-block;width:100%;height:165px;overflow:hidden;float:left;position:relative;text-align:center;margin:auto}
+  
+  	#HomeAboutNews .Box.News .NewsContent .Item span.Data span.Title {display:block;color:#003867;font-weight:bold;font-size:19px;margin-bottom:2px}
+  
+  	#HomeAboutNews .Box.News .NewsContent .Item span.Data span.Date {display:block;color:#3a9feb;font-weight:600;font-size:17px;margin-bottom:2px}
+  
+  	#HomeAboutNews .Box.News .NewsContent .Item span.Data span.Content {display:block;color:#343434;font-size:16px}
+	
+	
+	#HomeAboutNews {background-size:cover}
+	
+	#HomeAboutNews .Box.News .NewsContent .slick-prev {top:400px;left:15px !important}
+	
+	#HomeAboutNews .Box.News .NewsContent .slick-next {top:400px;right:15px !important}
+
+	 #TopEmail {display:none}
+	 
+	#NewsMain {margin-bottom:30px;margin-top:30px}
+	
+	#NewsMain .NewsBox .Pic {width:100%;margin-left:0px;height:auto;min-height:133px;margin:auto;clear:both;pading-bottom:20px;}
+
+	#NewsMain .NewsBox .Pic img {display:block;width:160px;height:auto;float:none}
+
+	#NewsMain .NewsBox .Data {width:100%;max-width:100%;float:right;margin-top:20px;text-align:center}
+	
+	#NewsMain .NewsBox .Data a.More, #NewsMain .NewsBox .Data a:hover.More {display:inline-block;margin-top:10px;}
+	
+	#NewsMain .Cleaner_MBA {height:0px}
+	
+	header div.search {
+		display: none;
+	}
+ }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+	
+	#HomeAboutNews .Box.News .NewsContent .slick-prev {top:80px;left:0px !important}
+	
+	#HomeAboutNews .Box.News .NewsContent .slick-next {top:80px;right:0px !important}
+	
+	
+	
+	
+	.page-top .breadcrumb {bottom:-8px}
+
+	.page-top h2 {bottom:-11px; }
+	
+	
+	
+.SSBox .Title span {font-size:20px;}
+
+.SSBox .content {width:100%;float:left;margin-top:15px;margin-bottom:15px}
+
+.SSBox .content .icon {width:100%;clear:both;height:auto;margin:0%;margin-top:15px;float:left;position:relative}
+
+.SSBox .content .icon img {display:block;position:relative;margin:auto;max-width:100%;height:auto}
+
+.SSBox .content .text {width:98%;padding:2%;clear:both;display:block;float:left;color:#000;font-size:14px;line-height:200%;text-align:justify}
+
+	#GalleryMain a {display:inline-block;position:relative;width:100%;margin:0;height:auto;float:right;margin-bottom:20px}
+	
+	}
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+	
+	/* About us box */
+	
+	.lead {font-size:14px}
+	
+	.SSBox .Title span {font-size:15px;}
+	
+    }
+	
+	/* Custom, Classic Nokia */ 
+	 @media only screen and (max-width : 240px) {
+	
+	
+
+	}
+
+
+    /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+	
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
+
+
+/* Remove Mail form */
+
+
+        #FooterForm {display:none}
+		footer#footer  {padding-top:0;background:none;border:none;
+		border-top:none;
+		font-size: 0.9em;
+		margin-top: 0px;
+		padding:0;
+		position: relative;}  
+		/*.main {min-height:712px}*/      
+
+
+
+/* ---   Super | Rules   --- */
+
+.Cleaner_MBA {clear:both}
+
+.intro-text {font-size:18px;line-height:180%}
+
+.justify {text-align:justify}
+
+.Hide_MBA {visibility:hidden !important;display:none !important;}
+
+.cursor-default {cursor:default}
+
+/* Vertical align anything with just 3 lines of CSS| http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/ */
+
+
+
+.parent-v-centerlize {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.element-v-centerlize {
+	display:block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.FontNormal {font-weight:normal !important}
+
+.DottedSep {width:100%;clear:both;height:1px;margin-top:20px;margin-bottom:20px;border-top:1px dotted #9E9E9E}
+
+.En_TXT {font-family: 'Open Sans', Arial, sans-serif;}
+
+.Kufi01 { font-family: 'Droid Arabic Kufi', Arial, Helvetica, sans-serif;font-weight:bold;letter-spacing:0px}
+
+h3 {font-family: 'Droid Arabic Kufi', Arial, Helvetica, sans-serif;}
+
+.TelNo {display:inline-block;font-family: 'Open Sans', Arial, sans-serif;direction:ltr}

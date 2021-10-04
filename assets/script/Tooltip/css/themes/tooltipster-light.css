@@ -1,0 +1,12 @@
+.tooltipster-light {
+	border-radius: 5px; 
+	/*border: 1px solid #cccccc;*/
+	background: #000;
+	color: #FFF;opacity:0.9
+}
+.tooltipster-light .tooltipster-content {
+	font-family: 'JF Flat Regular', Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 160%;
+	padding: 8px 10px;
+}
